@@ -10,4 +10,4 @@ Feature : Status
     Get Admin command prompt (required for Mimikatz) : COMPLETE
     Download and execute Mimikatz in Memory : COMPLETE
     Option to pipe output to an hidden data stream on disk : COMPLETE
-    Option to pipe output over network (GET requests?) : thinking about it..
+    Option to pipe output over network (GET requests?) : thinking about it...
